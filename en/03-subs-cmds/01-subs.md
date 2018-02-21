@@ -145,4 +145,4 @@ Here we declare the things we want to listen to. We want to listen to `Mouse.cli
 
 We use `Sub.batch` ➌ so we can listen to both of them. `batch` takes a list of subscriptions and returns one subscription which includes all of them.
 
-Also note that in this example our subscriptions are static, they don't change during the life our application. But they don't have to be like that. They could change depending on what is in the `model`, this is why we pass the model to `subscriptions`. 
+Also note that in this example our subscriptions are static -- they don't change during the life of our application. But they don't have to be like that. They could change depending on what is in the `model`, this is why we pass the model to `subscriptions`. 
